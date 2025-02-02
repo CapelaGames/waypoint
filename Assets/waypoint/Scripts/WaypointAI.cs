@@ -26,6 +26,11 @@ public class WaypointAI : MonoBehaviour
     void Patrol()
     {
         MoveAI(Waypoints[index].transform.position);
+
+        /* STUDENT MODIFICATION AREA: 
+         Make this ai patrol through many waypoints without errors.
+         With special attention to what happens when you reach the last waypoint. 
+        */
     }
 
     void MoveAI(Vector2 targetPosition)
